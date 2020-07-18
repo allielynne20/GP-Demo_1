@@ -1,0 +1,104 @@
+:root {
+    --primary: #182C61;
+    --secondary: #82589F;
+    --tertiary: #CAD3C8;
+    --light-dark: #4b6584;
+    --dark: #000000;
+    --border-radius: .3rem;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%; 
+}
+  
+body {
+    margin: 0; 
+    background-image: url('./jonathan-roger-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.hero {
+    padding-top: 10px;
+}
+
+.hero-p {
+    font-family: 'Staatliches', cursive;
+    color: var(--dark);
+    font-weight: lighter;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--tertiary);
+    text-align: center;
+}
+
+.callout {
+    background-color: rgba(202 , 211, 200, 0.5);
+    border-radius: 10px;
+}
+
+/* #callout1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--tertiary);
+}
+
+#callout2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--tertiary);
+} */
+
+.form-search {
+    background-color: rgba(202 , 211, 200, 0.4);
+}
+
+.form-email {
+    background-color: rgba(202 , 211, 200, 0.6);
+}
+
+h3 {
+    font-family: 'Staatliches', cursive;
+}
+
+h5 {
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.button {
+    border: 2px solid var(--dark);
+    border-radius: 10px;
+    background-color: var(--light-dark);
+}
+
+.mainEvent, .mainFood {
+    border-radius: 10px;
+    border: 1px solid var(--dark);
+    background-color: var(--tertiary);
+    font-family: 'Open Sans', sans-serif;
+    padding: 2.5%;
+    margin: 2.5%;
+}
+
+.brewlist {
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+}
+
+.eventlist {
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+}
+
